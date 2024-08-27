@@ -5,6 +5,7 @@
     --cor-destaque: #6715ae;
     --cor-texto: #866ab1;
   }
+  
   body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -13,3 +14,14 @@
     align-items: center;
     min-height: 100vh;
   }
+
+  .caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1{
+    color: var(--cor-destaque);
+   }
