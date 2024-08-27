@@ -1,7 +1,7 @@
-body{
-    background-color: rgb(162, 83, 236);
-}
-
-.teste{
-    background-color: rgb(238, 90, 231);
-}
+:root {
+    --cor-fundo: #01080E;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+  }
