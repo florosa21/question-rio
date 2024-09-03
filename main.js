@@ -11,18 +11,29 @@ const perguntas = [
           alternativas: ["alternativa1", "alternativa2", "alternativa3"]
    },
    {
-           enunciado:"Pergunta 2",
+           enunciado:"Quando que surgiu a independência do Brasil?",
           alternativas: ["alternativa1", "alternativa2", "alternativa3"]
    },
    {
-           enunciado:"Pergunta 3",
+           enunciado:"Por quê é comemorado a independência do Brasil?",
            alternativas: ["alternativa1", "alternativa2", "alternativa3"]
    },
    {
-           enunciado:"Pergunta 4",
+           enunciado:"Qual a importância da independência do Brasil?",
            alternativas: ["alternativa1", "alternativa2", "alternativa3"]
   },
 
 
 ];
 
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta(){
+perguntaAtual = perguntas[atual];
+
+caixaPergunta.textContent = perguntaAtual.enunciado;
+}
+
+mostraPergunta();
