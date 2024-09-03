@@ -7,7 +7,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
    {
-          enunciado:"Pergunta 1",
+          enunciado:"Qual a data da independêndencia do Brasil?",
           alternativas: ["alternativa1", "alternativa2", "alternativa3"]
    },
    {
